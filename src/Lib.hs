@@ -19,7 +19,6 @@ data User = User
   , userLastName  :: String
   } deriving (Eq, Show)
 
-type Handler = EitherT ServantErr IO
 type API
   =   "users" :> Get '[JSON] [User]
   :<|> "firstUser" :> Get '[JSON] User
