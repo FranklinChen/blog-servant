@@ -21,7 +21,6 @@ library
                      , servant-server
                      , wai
                      , warp
-                     , either
   default-language:    Haskell2010
 
 executable blog-servant-exe
